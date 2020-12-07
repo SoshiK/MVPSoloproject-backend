@@ -1,13 +1,13 @@
 require("dotenv");
 const app = require("./app");
-const db = require("./knex");
+// const db = require("./knex");
 
 const PORT = process.env.PORT || 9000;
 
 (async () => {
   try {
-    console.log("Running migrations");
-    await db.migrate.latest();
+    // console.log("Running migrations");
+    // await db.migrate.latest();
 
     console.log("Starting express");
     app.listen(PORT, () => {
