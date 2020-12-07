@@ -17,12 +17,14 @@ exports.up = function(knex) {
 
         table.text("name");
 
-        table.float("length");
+        table.integer("length");
 
-        table.float("height");
+        table.integer("height");
 
-        table.float("width");
+        table.integer("width");
 
+        table.integer("price");
+        
         table.integer("maker_id")
           .references("id")
           .inTable("makers");

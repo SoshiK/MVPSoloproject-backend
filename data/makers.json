@@ -1,0 +1,77 @@
+[
+  {
+    "id": 10,
+    "name": "SUZUKI",
+    "icon": ""
+  },
+  {
+    "id": 11,
+    "name": "SUBARU",
+    "icon": ""
+  },
+  {
+    "id": 12,
+    "name": "DAIHATSU",
+    "icon": ""
+  },
+  {
+    "id": 13,
+    "name": "TOYOTA",
+    "icon": ""
+  },
+  {
+    "id": 14,
+    "name": "NISSAN",
+    "icon": ""
+  },
+  {
+    "id": 15,
+    "name": "HONDA",
+    "icon": ""
+  },
+  {
+    "id": 16,
+    "name": "MAZDA",
+    "icon": ""
+  },
+  {
+    "id": 17,
+    "name": "MITSUBISHI",
+    "icon": ""
+  },
+  {
+    "id": 18,
+    "name": "LEXUS",
+    "icon": ""
+  },
+  {
+    "id": 30,
+    "name": "Audi",
+    "icon": ""
+  },
+  {
+    "id": 31,
+    "name": "Jeep",
+    "icon": ""
+  },
+  {
+    "id": 32,
+    "name": "BMW",
+    "icon": ""
+  },
+  {
+    "id": 33,
+    "name": "Volkswagen",
+    "icon": ""
+  },
+  {
+    "id": 34,
+    "name": "VOLVO",
+    "icon": ""
+  },
+  {
+    "id": 35,
+    "name": "Mercedes-Benz",
+    "icon": ""
+  }
+]

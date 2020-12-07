@@ -1,0 +1,122 @@
+[
+  {
+    "name": "RAV4",
+    "length": 4600,
+    "height": 1685,
+    "width": 1855,
+    "price": 2743000,
+    "maker_id": 13
+  },
+  {
+    "name": "CX-5",
+    "length": 4545,
+    "height": 1690,
+    "width": 1840,
+    "price": 2678500,
+    "maker_id": 16
+  },
+  {
+    "name": "VEZEL",
+    "length": 4330,
+    "height": 1605,
+    "width": 1770,
+    "price": 2113426,
+    "maker_id": 15
+  },
+  {
+    "name": "X-TRAIL",
+    "length": 4690,
+    "height": 170,
+    "width": 1820,
+    "price": 2482700,
+    "maker_id": 14
+  },
+  {
+    "name": "XV",
+    "length": 4485,
+    "height": 1550,
+    "width": 1800,
+    "price": 2200000,
+    "maker_id": 11
+  },
+  {
+    "name": "Rocky",
+    "length": 3995,
+    "height": 1620,
+    "width": 1695,
+    "price": 1705000,
+    "maker_id": 12
+  },
+  {
+    "name": "ECLIPSE CROSS",
+    "length": 4545,
+    "height": 1685,
+    "width": 1805,
+    "price": 2531100,
+    "maker_id": 17
+  },
+  {
+    "name": "RX",
+    "length": 4890,
+    "height": 1710,
+    "width": 1895,
+    "price": 5240000,
+    "maker_id": 18
+  },
+  {
+    "name": "Jimny SIERRA",
+    "length": 3550,
+    "height": 1730,
+    "width": 1645,
+    "price": 1793000,
+    "maker_id": 10
+  },
+  {
+    "name": "T-Roc",
+    "length": 4240,
+    "height": 1590,
+    "width": 1825,
+    "price": 4164910,
+    "maker_id": 33
+  },
+  {
+    "name": "XC40",
+    "length": 4425,
+    "height": 1660,
+    "width": 1875,
+    "price": 4090000,
+    "maker_id": 34
+  },
+  {
+    "name": "Q5",
+    "length": 4680,
+    "height": 1665,
+    "width": 1900,
+    "price": 6490000,
+    "maker_id": 30
+  },
+  {
+    "name": "X2",
+    "length": 4375,
+    "height": 1535,
+    "width": 1825,
+    "price": 4510000,
+    "maker_id": 32
+  },
+  {
+    "name": "GLA",
+    "length": 4415,
+    "height": 1620,
+    "width": 1835,
+    "price": 5020000,
+    "maker_id": 35
+  },
+  {
+    "name": "Renegade",
+    "length": 4255,
+    "height": 1695,
+    "width": 1805,
+    "price": 3050000,
+    "maker_id": 31
+  }
+]
