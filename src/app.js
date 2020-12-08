@@ -14,6 +14,30 @@ app.get("/api/cars", (req, res) => {
     })
 });
 
+//GET /api/cars/:order
+app.get("/api/cars/:order", (req, res) => {
+  const order = req.params.order;
+  db("cars")
+    .join("makers", "cars.maker_id", "=", "makers.id")
+    .orderBy(order, "asc")
+    .then((result) => {
+      res.send(result);
+    })
+});
+
+//GET /api/cars/selected/:maker
+app.get("/api/cars/selected/:maker", (req, res) => {
+  const makers = req.params.maker.split("&");
+  db("cars")
+    .join("makers", "cars.maker_id", "=", "makers.id")
+    .where((builder) => {
+      builder.whereIn("cars.maker_id", makers)
+    })
+    .then((result) => {
+      res.send(result);
+    })
+})
+
 app.get("*", (req, res) => {
   res.send("hello");
 })
