@@ -9,10 +9,9 @@ app.use(express.json());
 app.get("/api/cars", (req, res) => {
   db("cars")
     .join("makers", "cars.maker_id", "=", "makers.id")
-    .then((row) => {
-      console.log(row);
+    .then((result) => {
+      res.send(result);
     })
-    res.send("success!");
 });
 
 app.get("*", (req, res) => {
