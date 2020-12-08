@@ -13,7 +13,7 @@ app.get("/api/cars", (req, res) => {
     .join("makers", "cars.maker_id", "=", "makers.id")
     .then((result) => {
       res.send(result);
-    })
+    });
 });
 
 //GET /api/cars/:order
@@ -24,7 +24,7 @@ app.get("/api/cars/:order", (req, res) => {
     .orderBy(order, "asc")
     .then((result) => {
       res.send(result);
-    })
+    });
 });
 
 //GET /api/cars/selected/:maker
@@ -35,6 +35,15 @@ app.get("/api/cars/selected/:maker", (req, res) => {
     .where((builder) => {
       builder.whereIn("cars.maker_id", makers)
     })
+    .then((result) => {
+      res.send(result);
+    });
+});
+
+//GET /api/makers
+app.get("/api/makers", (req, res) => {
+  db("makers")
+    .select()
     .then((result) => {
       res.send(result);
     })
