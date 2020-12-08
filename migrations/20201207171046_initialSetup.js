@@ -6,7 +6,7 @@ exports.up = function(knex) {
       .createTable("makers", (table) => {
         table.increments().index();
 
-        table.text("name");
+        table.text("makername");
 
         table.text("icon");
       })
@@ -15,7 +15,7 @@ exports.up = function(knex) {
       .createTable("cars", (table) => {
         table.increments().index();
 
-        table.text("name");
+        table.text("carname");
 
         table.integer("length");
 
