@@ -22,7 +22,7 @@ const cars = JSON.parse(fs.readFileSync("./cars.json"));
     const length = car.length;
     const height = car.height;
     const width = car.width;
-    const price = car.width;
+    const price = car.price;
     const maker_id = car.maker_id;
     const result = await db("cars").insert({
       carname,
