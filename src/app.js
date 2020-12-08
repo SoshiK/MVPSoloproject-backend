@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
 const db = require("./knex");
+const cors = require("cors");
 
 //JSONペイロードで受信したリクエストを解析
+app.use(cors());
 app.use(express.json());
 
 //GET /api/cars
