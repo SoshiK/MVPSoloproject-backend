@@ -16,6 +16,21 @@ app.get("/api/cars", (req, res) => {
     });
 });
 
+//POST /api/cars
+app.post("/api/cars", async (req, res) => {
+  const data = req.body;
+  const {carname, length, height, width, price, maker_id} = data;
+  const result = await db("cars").insert({
+    carname,
+    length,
+    height,
+    width,
+    price,
+    maker_id
+  });
+  res.send(result.rowCount);
+});
+
 //GET /api/cars/:order
 app.get("/api/cars/:order", (req, res) => {
   const order = req.params.order;
